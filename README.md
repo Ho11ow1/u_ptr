@@ -1,5 +1,6 @@
 # u_ptr
 ![Status](https://img.shields.io/badge/🚧_Status-In_Progress-blue)
+<br>
 A lightweight implementation of a unique pointer in C, providing automatic memory management and type-safe operations.
 
 ## Features
