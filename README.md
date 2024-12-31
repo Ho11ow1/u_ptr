@@ -41,7 +41,7 @@ void* u_ptr_reset(u_ptr* ptr);
 int i_val = 123;
 u_ptr* i_ptr = u_ptr_init(&i_val, sizeof(i_val), INT);
 u_ptr_print(i_ptr); // Prints: 123
-u_ptr_reset(i_ptr); // Ready for re-assignment
+u_ptr_reset(i_ptr);
 free(i_ptr);
 ```
 
