@@ -66,13 +66,11 @@ static void free_ptr_data(u_ptr* ptr)
     }
 }
 
-void* u_ptr_reset(u_ptr* ptr)
+void u_ptr_reset(u_ptr* ptr)
 {
-    if (!ptr) { return NULL; }
+    if (!ptr) { return; }
 
     free_ptr_data(ptr);
-
-    return NULL;
 }
 
 void u_ptr_destroy(u_ptr** ptr) 

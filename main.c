@@ -15,7 +15,7 @@ int main(void)
     u_ptr* c_ptr = u_ptr_init(&c_val, sizeof(c_val), CHAR);
     u_ptr* v_ptr = u_ptr_init(&v_val, sizeof(v_val), VOID);
 
-    // Print the initiali values
+    // Print the initial values
     u_ptr_print(i_ptr);
     u_ptr_print(f_ptr);
     u_ptr_print(d_ptr);
@@ -43,7 +43,7 @@ int main(void)
     c_ptr = u_ptr_init(&c_val, sizeof(c_val), CHAR);
     v_ptr = u_ptr_init(&v_val, sizeof(v_val), VOID);
 
-    // Re print the values after Re-assignment
+    // Print the values after Re-assignment
     u_ptr_print(i_ptr);
     u_ptr_print(f_ptr);
     u_ptr_print(d_ptr);
