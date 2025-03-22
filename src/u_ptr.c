@@ -49,13 +49,6 @@ void u_ptr_print(u_ptr* ptr)
     }
 }
 
-static void u_ptr_free(u_ptr* ptr) 
-{
-    if (!ptr) { return; }
-
-    free_ptr_data(ptr);
-}
-
 static void free_ptr_data(u_ptr* ptr) 
 {
     if (ptr) 

@@ -56,7 +56,6 @@ void u_ptr_reset(u_ptr* ptr);
 void u_ptr_destroy(u_ptr** ptr);
 
 // Private functions
-static void u_ptr_free(u_ptr* ptr);
 static void free_ptr_data(u_ptr* ptr); 
 
 #endif
