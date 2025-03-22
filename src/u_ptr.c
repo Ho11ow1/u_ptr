@@ -8,6 +8,11 @@ u_ptr* u_ptr_init(void* ptr, size_t size, dataType type)
     if (!uptr) { return NULL; }
 
     uptr->data = malloc(size);
+    if (!uptr->data) 
+    {
+        free(uptr);
+        return NULL;
+    }
 
     memcpy(uptr->data, ptr, size);
     uptr->size = size;
